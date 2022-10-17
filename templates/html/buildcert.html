@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>一键生成证书</title>
+    <link rel="stylesheet" href="../layui/css/layui.css">
+    <script src="../layui/layui.js"></script>
+</head>
+<body>
+    <div>
+        <form class="layui-from" action="">
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <select name="province" lay-verify="required">
+                        <option value=""></option>
+                        <option value="0">北京</option>
+                        <option value="1">福建</option>
+                    </select>
+                </div>
+                <label class="layui-form-label">省</label>
+                <div class="layui-input-block">
+                    <select name="city" lay-verify="required">
+                        <option value="">-</option>
+                    </select>
+                </div>
+                <label class="layui-form-label">市</label>
+            </div>
+        </form>
+    </div>
+</body>
+<script></script>
+</html>
